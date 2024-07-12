@@ -1,0 +1,1858 @@
+{
+    "Format": "2.2.0",
+
+    "ConfigSchema": {
+        
+        "Beach Fish": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "Fish Types"
+        },
+
+        "Mountain Fish": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "Fish Types"
+        },
+
+        "Forest Fish": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "Fish Types"
+        },
+
+        "Town Fish": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Section": "Fish Types"
+        }
+    },
+
+
+    "Changes": [
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Standard", "Fish" ],
+
+            "Entries": {
+                "beachfish_on_standard_farm": {
+                    "Id": "beachfish_on_standard_farm",
+                    "ItemId":"LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Beach Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Standard", "Fish" ],
+    
+            "Entries": {
+                "mountainfish_on_standard_farm": {
+                    "Id": "mountainfish_on_standard_farm",
+                    "ItemId":"LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Mountain Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Standard", "Fish" ],
+    
+            "Entries": {
+                "forestfish_on_standard_farm": {
+                    "Id": "forestfish_on_standard_farm",
+                    "ItemId":"LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Forest Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Standard", "Fish" ],
+    
+            "Entries": {
+                "townfish_on_standard_farm": {
+                    "Id": "townfish_on_standard_farm",
+                    "ItemId":"LOCATION_FISH Town BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Town Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Beach", "Fish" ],
+    
+            "Entries": {
+                "beachfish_on_beach_farm": {
+                    "Id": "beachfish_on_beach_farm",
+                    "ItemId":"LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+    
+            "When": {
+                "Beach Fish": "true"
+                }
+        },
+    
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Beach", "Fish" ],
+    
+            "Entries": {
+                "mountainfish_on_beach_farm": {
+                    "Id": "mountainfish_on_beach_farm",
+                    "ItemId":"LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Mountain Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Beach", "Fish" ],
+    
+            "Entries": {
+                "forestfish_on_beach_farm": {
+                    "Id": "forestfish_on_beach_farm",
+                    "ItemId":"LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Forest Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Beach", "Fish" ],
+    
+            "Entries": {
+                "townfish_on_beach_farm": {
+                    "Id": "townfish_on_beach_farm",
+                    "ItemId":"LOCATION_FISH Town BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Town Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Forest", "Fish" ],
+    
+            "Entries": {
+                "beachfish_on_forest_farm": {
+                    "Id": "beachfish_on_forest_farm",
+                    "ItemId":"LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+    
+            "When": {
+                "Beach Fish": "true"
+                }
+        },
+    
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Forest", "Fish" ],
+    
+            "Entries": {
+                "mountainfish_on_forest_farm": {
+                    "Id": "mountainfish_on_forest_farm",
+                    "ItemId":"LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Mountain Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Forest", "Fish" ],
+    
+            "Entries": {
+                "forestfish_on_forest_farm": {
+                    "Id": "forestfish_on_forest_farm",
+                    "ItemId":"LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Forest Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Forest", "Fish" ],
+    
+            "Entries": {
+                "townfish_on_forest_farm": {
+                    "Id": "townfish_on_forest_farm",
+                    "ItemId":"LOCATION_FISH Town BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Town Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_FourCorners", "Fish" ],
+    
+            "Entries": {
+                "beachfish_on_fourcorners_farm": {
+                    "Id": "beachfish_on_fourcorners_farm",
+                    "ItemId":"LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+    
+            "When": {
+                "Beach Fish": "true"
+                }
+        },
+    
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_FourCorners", "Fish" ],
+    
+            "Entries": {
+                "mountainfish_on_fourcorners_farm": {
+                    "Id": "mountainfish_on_fourcorners_farm",
+                    "ItemId":"LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Mountain Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_FourCorners", "Fish" ],
+    
+            "Entries": {
+                "forestfish_on_fourcorners_farm": {
+                    "Id": "forestfish_on_fourcorners_farm",
+                    "ItemId":"LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Forest Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_FourCorners", "Fish" ],
+    
+            "Entries": {
+                "townfish_on_fourcorners_farm": {
+                    "Id": "townfish_on_fourcorners_farm",
+                    "ItemId":"LOCATION_FISH Town BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Town Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Hilltop", "Fish" ],
+    
+            "Entries": {
+                "beachfish_on_hilltop_farm": {
+                    "Id": "beachfish_on_hilltop_farm",
+                    "ItemId":"LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+    
+            "When": {
+                "Beach Fish": "true"
+                }
+        },
+    
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Hilltop", "Fish" ],
+    
+            "Entries": {
+                "mountainfish_on_hilltop_farm": {
+                    "Id": "mountainfish_on_hilltop_farm",
+                    "ItemId":"LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Mountain Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Hilltop", "Fish" ],
+    
+            "Entries": {
+                "forestfish_on_hilltop_farm": {
+                    "Id": "forestfish_on_hilltop_farm",
+                    "ItemId":"LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Forest Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Hilltop", "Fish" ],
+    
+            "Entries": {
+                "townfish_on_hilltop_farm": {
+                    "Id": "townfish_on_hilltop_farm",
+                    "ItemId":"LOCATION_FISH Town BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Town Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Riverland", "Fish" ],
+    
+            "Entries": {
+                "beachfish_on_riverland_farm": {
+                    "Id": "beachfish_on_riverland_farm",
+                    "ItemId":"LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+    
+            "When": {
+                "Beach Fish": "true"
+                }
+        },
+    
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Riverland", "Fish" ],
+    
+            "Entries": {
+                "mountainfish_on_riverland_farm": {
+                    "Id": "mountainfish_on_riverland_farm",
+                    "ItemId":"LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Mountain Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Riverland", "Fish" ],
+    
+            "Entries": {
+                "forestfish_on_riverland_farm": {
+                    "Id": "forestfish_on_riverland_farm",
+                    "ItemId":"LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Forest Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Riverland", "Fish" ],
+    
+            "Entries": {
+                "townfish_on_riverland_farm": {
+                    "Id": "townfish_on_riverland_farm",
+                    "ItemId":"LOCATION_FISH Town BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Town Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Wilderness", "Fish" ],
+    
+            "Entries": {
+                "beachfish_on_wilderness_farm": {
+                    "Id": "beachfish_on_wilderness_farm",
+                    "ItemId":"LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+    
+            "When": {
+                "Beach Fish": "true"
+                }
+        },
+    
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Wilderness", "Fish" ],
+    
+            "Entries": {
+                "mountainfish_on_wilderness_farm": {
+                    "Id": "mountainfish_on_wilderness_farm",
+                    "ItemId":"LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Mountain Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Wilderness", "Fish" ],
+    
+            "Entries": {
+                "forestfish_on_wilderness_farm": {
+                    "Id": "forestfish_on_wilderness_farm",
+                    "ItemId":"LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Forest Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_Wilderness", "Fish" ],
+    
+            "Entries": {
+                "townfish_on_wilderness_farm": {
+                    "Id": "townfish_on_wilderness_farm",
+                    "ItemId":"LOCATION_FISH Town BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Town Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_MeadowlandsFarm", "Fish" ],
+    
+            "Entries": {
+                "beachfish_on_meadowlands_farm": {
+                    "Id": "beachfish_on_meadowlands_farm",
+                    "ItemId":"LOCATION_FISH Beach BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+    
+            "When": {
+                "Beach Fish": "true"
+                }
+        },
+    
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_MeadowlandsFarm", "Fish" ],
+    
+            "Entries": {
+                "mountainfish_on_meadowlands_farm": {
+                    "Id": "mountainfish_on_meadowlands_farm",
+                    "ItemId":"LOCATION_FISH Mountain BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Mountain Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_MeadowlandsFarm", "Fish" ],
+    
+            "Entries": {
+                "forestfish_on_meadowlands_farm": {
+                    "Id": "forestfish_on_meadowlands_farm",
+                    "ItemId":"LOCATION_FISH Forest BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Forest Fish": "true"
+                }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Farm_MeadowlandsFarm", "Fish" ],
+    
+            "Entries": {
+                "townfish_on_meadowlands_farm": {
+                    "Id": "townfish_on_meadowlands_farm",
+                    "ItemId":"LOCATION_FISH Town BOBBER_X BOBBER_Y WATER_DEPTH",
+                    "RandomItemId": null,
+                    "MaxItems": null,
+                    "MinStack": -1,
+                    "MaxStack": -1,
+                    "Quality": -1,
+                    "ObjectInternalName": null,
+                    "ObjectDisplayName": null,
+                    "ToolUpgradeLevel": -1,
+                    "IsRecipe": false,
+                    "StackModifiers": null,
+                    "StackModifierMode": 0,
+                    "QualityModifiers": null,
+                    "QualityModifierMode": 0,
+                    "ModData": null,
+                    "PerItemCondition": null,
+                    "Condition": null,
+                    "Chance": 1,
+                    "Season": null,
+                    "FishAreaId": null,
+                    "BobberPosition": null,
+                    "PlayerPosition": null,
+                    "MinFishingLevel": 0,
+                    "MinDistanceFromShore": 0,
+                    "MaxDistanceFromShore": -1,
+                    "ApplyDailyLuck": false,
+                    "CuriosityLureBuff": -1,
+                    "SpecificBaitBuff": 0,
+                    "SpecificBaitMultiplier": 1.659999966621399,
+                    "CatchLimit": -1,
+                    "CanUseTrainingRod": null,
+                    "IsBossFish": false,
+                    "SetFlagOnCatch": null,
+                    "RequireMagicBait": false,
+                    "Precedence": -50,
+                    "IgnoreFishDataRequirements": true,
+                    "CanBeInherited": true,
+                    "ChanceModifiers": null,
+                    "ChanceModifierMode": 0,
+                    "ChanceBoostPerLuckLevel": 0,
+                    "UseFishCaughtSeededRandom": false
+                    }
+                },
+
+            "When": {
+                "Town Fish": "true"
+                }
+        }
+    ]
+}

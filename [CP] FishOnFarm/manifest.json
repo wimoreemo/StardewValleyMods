@@ -1,0 +1,11 @@
+{
+    "Name": "Fish on Farm",
+    "Author": "wimoreemo",
+    "Version": "1.0.0",
+    "Description": "Enables you to catch most standard location fish on your farm water bodies.",
+    "UniqueID": "wimoreemo.FishOnFarm",
+    "UpdateKeys": ["Nexus:25576"], 
+    "ContentPackFor": {
+        "UniqueID": "pathoschild.contentpatcher"
+    }
+}
