@@ -36,4 +36,4 @@ To revert to default fishing on your map, deselect all fish categories in the co
 
 ### Mod Installation
 - Install this mod from NexusMods [here](https://www.nexusmods.com/stardewvalley/mods/25576?tab=description).
-- (**Not Recommended**) Download the CP[FishOnFarm] folder from this repository into your mods folder.
+- (**Not Recommended**) Download the [CP]FishOnFarm folder from this repository into your mods folder.
